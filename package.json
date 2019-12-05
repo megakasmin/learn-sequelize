@@ -1,0 +1,20 @@
+{
+  "name": "learn-sequelize",
+  "version": "1.0.0",
+  "description": "semangat belajar yah Mega, pasti bisa!",
+  "main": "index.js",
+  "author": "megakasmin",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.0.1",
+    "nodemon": "^2.0.1",
+    "sequelize": "^5.21.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
